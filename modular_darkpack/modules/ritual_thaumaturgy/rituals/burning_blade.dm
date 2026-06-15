@@ -21,6 +21,7 @@
 	to_chat(last_activator, span_notice("The [weapon.name] ignites with an unholy flame for [charges] swings!"))
 	qdel(src)
 
+// Turns a scythe/katana into the 'egorium' icon state, allowing tremeres to deal aggravated damage for a few swings.
 /datum/component/burning_blade
 	var/original_damtype
 	var/original_icon_state
