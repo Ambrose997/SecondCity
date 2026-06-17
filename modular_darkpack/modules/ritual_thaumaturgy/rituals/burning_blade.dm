@@ -18,7 +18,7 @@
 		return
 	var/charges = ritual_roll_datum.last_sucess_amount
 	weapon.AddComponent(/datum/component/burning_blade, charges)
-	to_chat(last_activator, span_notice("The [weapon.name] ignites with an unholy flame for [charges] swings!"))
+	to_chat(last_activator, span_notice("[weapon] ignites with an unholy flame for [charges] swings!"))
 	qdel(src)
 
 // Turns a scythe/katana into the 'egorium' icon state, allowing tremeres to deal aggravated damage for a few swings.
