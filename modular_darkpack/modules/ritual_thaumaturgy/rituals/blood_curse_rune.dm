@@ -142,3 +142,4 @@
 		to_chat(channeler, span_warning("The last heart is consumed, completing the curse ritual!"))
 		channeling = FALSE
 		qdel(src)
+
